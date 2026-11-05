@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "route": [
+      "approve",
+      "review"
+    ]
+  },
+  "events": [
+    {
+      "kind": "text",
+      "text": "{\"route\":\"approve\"}"
+    },
+    {
+      "kind": "incomplete"
+    }
+  ]
+}

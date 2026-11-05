@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structured-refusal-boundary"
+version = "0.1.0a1"
+description = "FR: Refuser les sorties structurées incomplètes ou refusées | EN: Reject incomplete or refused structured outputs | ES: Rechazar salidas estructuradas incompletas o rechazadas"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+structured-refusal-boundary = "structured_refusal_boundary.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["structured_refusal_boundary*"]

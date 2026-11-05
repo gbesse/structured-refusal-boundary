@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Refuser les sorties structurées incomplètes ou refusées', 'en': 'Reject incomplete or refused structured outputs', 'es': 'Rechazar salidas estructuradas incompletas o rechazadas'}
